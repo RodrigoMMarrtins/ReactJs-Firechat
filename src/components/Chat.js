@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react'
 import SignOut from './SignOut'
 import {auth, db} from '../firebase'
-import { collection, onSnapshot, query, orderBy, limit} from 'firebase/firestore'
+import { collection, onSnapshot, query, orderBy, limit, } from 'firebase/firestore'
 import SendMessage from '../components/SendMessage'
 
 function Chat() {
