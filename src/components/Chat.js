@@ -10,7 +10,7 @@ function Chat() {
     useEffect(() => {
         const msgRef = collection(db, "messages");
 
-        const q = query(msgRef, orderBy('createdAt'), limit(50))
+        const q = query(msgRef, orderBy('createdAt', 'asc'), limit(50))
 
         onSnapshot( q, snapshot => {
             setMessages(snapshot.docs.map(doc => doc.data()))
