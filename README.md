@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # Firechat
 
-Chat publico (Apenas uma sala para todos). Faça login e é so digitar.
+Chat de mensagens instantaneas.
 
 Projeto realizado com ReactJs e Firebase.
 
